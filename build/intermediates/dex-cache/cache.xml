@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/jeevan/.android/build-cache/f96497a5ef73dcd0fb421c9825ebdf98f13204fc/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="/home/jeevan/code/AndroidStudioProjects/TestApp/app/build/intermediates/pre-dexed/debug/classes_f4b562043c4926c7ce2fe2a75470517c0d709b6c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/jeevan/.android/build-cache/0b72ca474a76f3fde3c64389576bbbc72933bb3a/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="/home/jeevan/code/AndroidStudioProjects/TestApp/app/build/intermediates/pre-dexed/debug/classes_865d36d75b3c0c4c42712c0f24c9b0092d14640d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/jeevan/.android/build-cache/7c95e46d875ecc9cb57b1488ef130c40259b840e/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="/home/jeevan/code/AndroidStudioProjects/TestApp/app/build/intermediates/pre-dexed/debug/classes_1ef94f0dbb565e1c217945b6070a8131b4c11374.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/jeevan/Android/Sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.0-alpha7/constraint-layout-solver-1.0.0-alpha7.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="439eeb5ffd54cbd18db0a6aea471e8356f19fc36">
+        <dex dex="/home/jeevan/code/AndroidStudioProjects/TestApp/app/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.0.0-alpha7_8fd572e400e49ef2ca1d7076f74273041d9d3517.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/jeevan/.android/build-cache/5ee0e63ba4f92540ad227588ca8cb1bd16e1dbff/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="/home/jeevan/code/AndroidStudioProjects/TestApp/app/build/intermediates/pre-dexed/debug/classes_e2a5f7a1f9076eac07c124aa188546ea460791c2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/jeevan/.android/build-cache/addd20301ef13a770a303d60121420e237f3a1c1/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="/home/jeevan/code/AndroidStudioProjects/TestApp/app/build/intermediates/pre-dexed/debug/classes_c41de49de4569f80fdda6689a81d7129cce0962f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/jeevan/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.1/support-annotations-25.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="/home/jeevan/code/AndroidStudioProjects/TestApp/app/build/intermediates/pre-dexed/debug/support-annotations-25.3.1_16f5e21ccc19194b4a5c91359666ff8dc8b03eb0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/jeevan/.android/build-cache/e75b6fdde6e881e5c3ffe11e3968a35fe0e050d0/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/jeevan/code/AndroidStudioProjects/TestApp/app/build/intermediates/pre-dexed/debug/classes_65d2fc13297004cfab118e320b6c9aa820a93074.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/jeevan/.android/build-cache/a518c6b7fb2ecfbe16711a8c709e8e72a1bf7428/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="541a2ad68dc68aa49795821f8280b7624e6a0c9b">
+        <dex dex="/home/jeevan/code/AndroidStudioProjects/TestApp/app/build/intermediates/pre-dexed/debug/classes_d826cf87fa6335f1bfaab5b6e36fec8a610be749.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/jeevan/.android/build-cache/25ef690fa8d26fd630c853d23059eae16a19ab9e/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="/home/jeevan/code/AndroidStudioProjects/TestApp/app/build/intermediates/pre-dexed/debug/classes_86494b79e201760c1afbbffc5f80a80fc6033a2a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/jeevan/.android/build-cache/00c9ee61788698f8e51ce89c8fb53ddc8408a9f2/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="/home/jeevan/code/AndroidStudioProjects/TestApp/app/build/intermediates/pre-dexed/debug/classes_96e61cbcbb830c84cdbea240fbc3b5a9fa75189f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/jeevan/.android/build-cache/6531a4b94ff405e3f70ac4b089985a42c2e7ef06/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="/home/jeevan/code/AndroidStudioProjects/TestApp/app/build/intermediates/pre-dexed/debug/classes_518b71daf93b2252fe032d69ada2f49870e50b4a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/jeevan/.android/build-cache/86907999ca7b7b43ae8a34af7301e4194ac99345/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="/home/jeevan/code/AndroidStudioProjects/TestApp/app/build/intermediates/pre-dexed/debug/classes_b519c822adf15041f31ead08da4cefbc1ca6deb4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/jeevan/.android/build-cache/40ec9766c7e8e5e55ebf37b98207e7e1f9d6d848/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="/home/jeevan/code/AndroidStudioProjects/TestApp/app/build/intermediates/pre-dexed/debug/classes_ab21416c41626f67a489cafeb04effcdf8462b49.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/jeevan/.android/build-cache/b5e24ce5ddf15be297d0f4a91cb706951100da61/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="/home/jeevan/code/AndroidStudioProjects/TestApp/app/build/intermediates/pre-dexed/debug/classes_d63487d6546ac4697b4683a3f0d622236b55e4e9.jar" />
+    </item>
+
+</items>

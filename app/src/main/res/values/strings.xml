@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TestApp</string>
+    <string name="title_activity_search">Search</string>
+    <string name="no_result_found">No record found for the given name!</string>
+    <string name="title_activity_insert_record">Save New</string>
+    <string name="record_saved">Record Saved!</string>
+</resources>
