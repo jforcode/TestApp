@@ -10,7 +10,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 
 public class DBHelper extends SQLiteOpenHelper {
     private static final String dbName = "TEST_DB";
-    private static final int dbVersion = 2;
+    private static final int dbVersion = 1;
 
     public DBHelper(Context context, SQLiteDatabase.CursorFactory factory) {
         super(context, dbName, factory, dbVersion);
@@ -18,12 +18,19 @@ public class DBHelper extends SQLiteOpenHelper {
 
     @Override
     public void onCreate(SQLiteDatabase db) {
-        db.execSQL(Test.CREATE_QUERY);
+        // Table for Testing DB
+        db.execSQL(Test1Emp.CREATE_QUERY);
     }
 
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
-        db.execSQL(Test.DELETE_QUERY);
+        db.execSQL(Test1Emp.DELETE_QUERY);
+        onCreate(db);
+    }
+
+    @Override
+    public void onDowngrade(SQLiteDatabase db, int oldVersion, int newVersion) {
+        db.execSQL(Test1Emp.DELETE_QUERY);
         onCreate(db);
     }
 }

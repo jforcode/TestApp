@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.jeevan.testapp.activities.Test1InsertRecordActivity"
+    tools:showIn="@layout/test1_activity_insert_record">
+
+    <EditText
+        android:id="@+id/name_tv"
+        android:hint="Enter Name"
+        android:minHeight="48dp"
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/designation_tv"
+        android:layout_below="@id/name_tv"
+        android:hint="Enter Designation"
+        android:minHeight="48dp"
+        android:inputType="text"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/phone_tv"
+        android:layout_below="@id/designation_tv"
+        android:hint="Enter Phone"
+        android:inputType="number"
+        android:maxEms="10"
+        android:minHeight="48dp"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

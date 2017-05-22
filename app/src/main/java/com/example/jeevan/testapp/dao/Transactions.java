@@ -34,11 +34,12 @@ public class Transactions {
         return instance;
     }
 
-    public com.example.jeevan.testapp.local_models.Test getRecord(String name) {
+    // Test1Emp 1
+    public com.example.jeevan.testapp.local_models.Test1Emp getRecord(String name) {
         // query the db for the name, and return the record
-        String selection = Test.NAME + " = ?";
+        String selection = Test1Emp.NAME + " = ?";
         String[] args = {name};
-        Cursor cursor = db.query(Test.TABLE_NAME, null, selection, args, null, null, null);
+        Cursor cursor = db.query(Test1Emp.TABLE_NAME, null, selection, args, null, null, null);
         if (cursor != null && cursor.getCount() == 1) {
             cursor.moveToNext();
             return fillRecord(cursor);
@@ -46,30 +47,30 @@ public class Transactions {
         return null;
     }
 
-    public List<com.example.jeevan.testapp.local_models.Test> getAllRecords() {
-        Cursor cursor = db.query(Test.TABLE_NAME, null, null, null, null, null, null);
-        List<com.example.jeevan.testapp.local_models.Test> records = new ArrayList<>();
+    public List<com.example.jeevan.testapp.local_models.Test1Emp> getAllRecords() {
+        Cursor cursor = db.query(Test1Emp.TABLE_NAME, null, null, null, null, null, null);
+        List<com.example.jeevan.testapp.local_models.Test1Emp> records = new ArrayList<>();
         while (cursor != null && cursor.moveToNext()) {
             records.add(fillRecord(cursor));
         }
         return records;
     }
 
-    public boolean saveRecord (com.example.jeevan.testapp.local_models.Test record) throws SQLException {
+    public boolean saveRecord (com.example.jeevan.testapp.local_models.Test1Emp record) throws SQLException {
         // save the record
         ContentValues values = new ContentValues();
         Log.d(TAG, record.toString());
-        values.put(Test.NAME, record.getName());
-        values.put(Test.DESIGNATION, record.getDesignation());
-        values.put(Test.PHONE, record.getPhone());
-        return db.insertOrThrow(Test.TABLE_NAME, null, values) != -1;
+        values.put(Test1Emp.NAME, record.getName());
+        values.put(Test1Emp.DESIGNATION, record.getDesignation());
+        values.put(Test1Emp.PHONE, record.getPhone());
+        return db.insertOrThrow(Test1Emp.TABLE_NAME, null, values) != -1;
     }
 
-    private com.example.jeevan.testapp.local_models.Test fillRecord(Cursor cursor) {
-        com.example.jeevan.testapp.local_models.Test test = new com.example.jeevan.testapp.local_models.Test();
-        test.setName(cursor.getString(cursor.getColumnIndex(Test.NAME)));
-        test.setDesignation(cursor.getString(cursor.getColumnIndex(Test.DESIGNATION)));
-        test.setPhone(cursor.getString(cursor.getColumnIndex(Test.PHONE)));
-        return test;
+    private com.example.jeevan.testapp.local_models.Test1Emp fillRecord(Cursor cursor) {
+        com.example.jeevan.testapp.local_models.Test1Emp test1Emp = new com.example.jeevan.testapp.local_models.Test1Emp();
+        test1Emp.setName(cursor.getString(cursor.getColumnIndex(Test1Emp.NAME)));
+        test1Emp.setDesignation(cursor.getString(cursor.getColumnIndex(Test1Emp.DESIGNATION)));
+        test1Emp.setPhone(cursor.getString(cursor.getColumnIndex(Test1Emp.PHONE)));
+        return test1Emp;
     }
 }

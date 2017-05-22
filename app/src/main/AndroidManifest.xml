@@ -8,26 +8,43 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity
-            android:name=".activities.SearchActivity"
-            android:label="@string/title_activity_search"
-            android:theme="@style/AppTheme.NoActionBar">
+        android:theme="@style/AppTheme.NoActionBar">
+
+        <activity android:name=".activities.LauncherActivity"
+            android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!-- Test 1 -->
         <activity
-            android:name=".activities.InsertRecordActivity"
-            android:label="@string/title_activity_insert_record"
-            android:parentActivityName=".activities.SearchActivity"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:name=".activities.Test1SearchRecordActivity"
+            android:label="@string/title_activity_search">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.jeevan.testapp.activities.SearchActivity" />
+                android:value=".activities.LauncherActivity" />
         </activity>
+
+        <activity
+            android:name=".activities.Test1InsertRecordActivity"
+            android:label="@string/title_activity_insert_record"
+            android:parentActivityName=".activities.Test1SearchRecordActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.jeevan.testapp.activities.Test1SearchRecordActivity" />
+        </activity>
+
+        <!-- Test 2 -->
+        <activity android:name=".activities.Test2MainActivity"
+            android:label="@string/title_activity_main">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.LauncherActivity" />
+        </activity>
+
     </application>
 
 </manifest>

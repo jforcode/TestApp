@@ -1,0 +1,11 @@
+This project contains random features I wanted to test1Emp in the app.
+The following index gives the test1Emp number and name. Files are prefixed with the test1Emp number.
+
+Test1 :
+    Simple db fetch and save.
+
+Test2 :
+    Showing fragment interaction using parent activity
+    The main activity contains 2 fragments Content and Favorites in a ViewPager,
+    As the name suggest, both list contain items that can be starred, Favorites contain only the starred elements
+    Without using a DB, create the effect by passing messages among the fragments using the activity.
